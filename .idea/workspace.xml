@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/6_switch2_launch/switch2_launch.py" beforeDir="false" afterPath="$PROJECT_DIR$/voraces/6_switch2_launch/switch2_launch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voraces/4_dora_the_temptress/dora_the_temptress.py" beforeDir="false" afterPath="$PROJECT_DIR$/voraces/4_dora_the_temptress/dora_the_temptress.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.contest_fish.executor": "Run",
     "Python.different_currencies.executor": "Run",
+    "Python.dora_the_temptress.executor": "Run",
     "Python.everyone_to_elis.executor": "Run",
     "Python.fractional_knapsack_greedy.executor": "Run",
     "Python.learning_drive.executor": "Run",
@@ -91,5 +92,16 @@
       <updated>1771510613717</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
