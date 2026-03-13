@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/coin_exchange_algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voraces/5_the_best_store/5_the_best_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/voraces/7_p42/7_p42.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/4_dora_the_temptress/dora_the_temptress.py" beforeDir="false" afterPath="$PROJECT_DIR$/voraces/4_dora_the_temptress/dora_the_temptress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/activity_selection_greedy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/coin_algorithm_greedy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/fractional_knapsack_greedy.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.5_the_best_grosery.executor": "Run",
+    "Python.coin_exchange_algorithm.executor": "Run",
     "Python.contest_fish.executor": "Run",
     "Python.different_currencies.executor": "Run",
     "Python.dora_the_temptress.executor": "Run",
