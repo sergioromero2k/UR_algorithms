@@ -22,19 +22,23 @@ def order_task(tasks):
     return sol
 
 def calculate_waiting_time(sol, tasks, m):
-    sele = []
-    no_sele = []
+    time = []
     accum = 0
-    for task in sol:
-        accum += tasks[task]
-        if accum <= m:
-            sele.append(accum)
+    total = 0
+    sele = []
+    sele_no = []
+    for idx in sol:
+        if total < m:
+            accum += tasks[idx]
+            time.append(accum)
+            sele.append(idx)
+            total = sum(time)
         else:
-            no_sele.append(accum)
-    return sele, no_sele
+            sele_no.append(idx)
+    return sele, sele_no, total
 
 
-def main() ->None:
+def main() -> None:
     n, m = map(int, input().split())
     candidates = list()
     tasks = list()
@@ -42,28 +46,22 @@ def main() ->None:
         s, t = input().split()
         t = int(t)
         candidates.append((s, t))
-        tasks.append((t))
-    sol = order_task(tasks)
-    print("Seleccionadas:")
-    i= 0
-    times = calculate_waiting_time(sol, tasks)
+        tasks.append(t)
 
-    total = 0
-    while i < len(sol) and times[i] <= m:
-        idx = sol[i]
-        name, time = candidates[idx]
-        print(name)
-        i += 1
+    sol = order_task(tasks)
+    sele, sele_no, total = calculate_waiting_time(sol, tasks, m)
+
+    print("Seleccionadas:")
+    for idx in sol:
+        if idx in sele:
+            print(candidates[idx][0])
 
     print("No seleccionadas:")
-    while i < len(sol):
-        idx = sol[i]
-        name, time = candidates[idx]
-        print(name)
-        i += 1
-
-    total = times[i - 2]
+    for idx in sol:
+        if idx in sele_no:
+            print(candidates[idx][0])
     print(total)
+
 
 if __name__ == '__main__':
     main()
