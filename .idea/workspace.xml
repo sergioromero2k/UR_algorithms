@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/scheduling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/scheduling.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/scheduling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm/waiting_time_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/waiting_time_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/voraces/7_p42/7_p42.py" beforeDir="false" afterPath="$PROJECT_DIR$/voraces/7_p42/7_p42.py" afterDir="false" />
     </list>
@@ -52,6 +52,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.5_the_best_grosery.executor": "Run",
+    "Python.7_p42.executor": "Run",
     "Python.coin_exchange_algorithm.executor": "Run",
     "Python.contest_fish.executor": "Run",
     "Python.different_currencies.executor": "Run",
