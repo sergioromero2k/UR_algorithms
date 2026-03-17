@@ -16,33 +16,25 @@ def greedy_knapsack(v, w, W):
     n = len(v)
     for i in range(n):
         candidates.add(i)
-
     sol = [0] * n
     weight = 0
     while candidates and weight < W:
         best = get_best_item(candidates, v, w)
         candidates.remove(best)
         if w[best] + weight <= W:
-            sol[best] = 1 * v[best]
+            sol[best] = 1
             weight += w[best]
         else:
-            sol[best] = ((W-weight) / w[best]) * v[best]
+            sol[best] = (W-weight) / w[best]
             weight = W
     return sol
 
-
 def main() -> None:
-    n, m = map(int, input().split())
-    values = []
-    weights = []
-    for i in range(m):
-        v, p = map(int, input().split())
-        values.append(v)
-        weights.append(p)
-    algorithm = sum(greedy_knapsack(values, weights, n))
-
-    print("{:.2f}".format(algorithm))
-
+    v = [20, 30, 66, 40, 60]
+    w = [10, 20, 30, 40, 50]
+    W = 100
+    sol = greedy_knapsack(v, w, W)
+    print(sol)
 
 if __name__ == '__main__':
     main()
