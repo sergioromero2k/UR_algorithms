@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/bfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/dfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/greedy_knapsack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafos/DungeonsAndVagos/dungeonsAndVagos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/8_return_to_earth/return_to_earth.py" beforeDir="false" afterPath="$PROJECT_DIR$/voraces/8_return_to_earth/return_to_earth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/bfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/scheduling.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/scheduling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +53,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.5_the_best_grosery.executor": "Run",
     "Python.7_p42.executor": "Run",
+    "Python.bfs.executor": "Run",
     "Python.coin_exchange_algorithm.executor": "Run",
     "Python.contest_fish.executor": "Run",
     "Python.different_currencies.executor": "Run",
     "Python.dora_the_temptress.executor": "Run",
+    "Python.dungeonsAndVagos.executor": "Run",
     "Python.everyone_to_elis.executor": "Run",
     "Python.fractional_knapsack_greedy.executor": "Run",
     "Python.greedy_knapsack.executor": "Run",
@@ -66,6 +67,7 @@
     "Python.personalized.executor": "Run",
     "Python.return_to_earth.executor": "Run",
     "Python.road_to_velada.executor": "Run",
+    "Python.scheduling.executor": "Run",
     "Python.switch2_launch.executor": "Run",
     "Python.test.executor": "Run",
     "Python.waiting_time_algorithm.executor": "Run",
@@ -75,7 +77,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Sergio URJC/Documents/UR_voraces/voraces/2_road_to_velada",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion"
   }
 }]]></component>
   <component name="RecentsManager">
