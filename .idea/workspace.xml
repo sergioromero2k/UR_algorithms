@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/grafos/bfs_min.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafos/henry/henry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/grafos/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafos/explorando/explorando.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/bfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/ES/grafos_voraces/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/ES/grafos_voraces/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafos/DungeonsAndVagos/dungeonandvagos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +57,13 @@
     "Python.bfs_min.executor": "Run",
     "Python.coin_exchange_algorithm.executor": "Run",
     "Python.contest_fish.executor": "Run",
+    "Python.dfs.executor": "Run",
     "Python.different_currencies.executor": "Run",
     "Python.dora_the_temptress.executor": "Run",
+    "Python.dungeonandvagos.executor": "Run",
     "Python.dungeonsAndVagos.executor": "Run",
     "Python.everyone_to_elis.executor": "Run",
+    "Python.explorando.executor": "Run",
     "Python.fractional_knapsack_greedy.executor": "Run",
     "Python.greedy_knapsack.executor": "Run",
     "Python.henry.executor": "Run",
