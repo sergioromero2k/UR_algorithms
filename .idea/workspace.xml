@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/bfs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +83,7 @@
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\voraces\2_road_to_velada" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm\voraces" />
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\voraces\3_different_currencies" />
     </key>
   </component>
@@ -119,7 +119,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithm/waiting_time_algorithm.py</url>
+          <url>file://$PROJECT_DIR$/algorithm/voraces/waiting_time_algorithm.py</url>
           <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
