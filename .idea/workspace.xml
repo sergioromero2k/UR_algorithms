@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/grafos/bfs_min.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafos/henry/henry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/bfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/ES/grafos_voraces/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/ES/grafos_voraces/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,43 +49,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.5_the_best_grosery.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7_p42.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bfs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.coin_exchange_algorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.contest_fish.executor&quot;: &quot;Run&quot;,
-    &quot;Python.different_currencies.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dora_the_temptress.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dungeonsAndVagos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.everyone_to_elis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fractional_knapsack_greedy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.greedy_knapsack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.learning_drive.executor&quot;: &quot;Run&quot;,
-    &quot;Python.luz_verde_roja.executor&quot;: &quot;Run&quot;,
-    &quot;Python.personalized.executor&quot;: &quot;Run&quot;,
-    &quot;Python.return_to_earth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.road_to_velada.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scheduling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.switch2_launch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.waiting_time_algorithm.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sergio URJC/Documents/UR_voraces/voraces/2_road_to_velada&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.5_the_best_grosery.executor": "Run",
+    "Python.7_p42.executor": "Run",
+    "Python.bfs.executor": "Run",
+    "Python.bfs_min.executor": "Run",
+    "Python.coin_exchange_algorithm.executor": "Run",
+    "Python.contest_fish.executor": "Run",
+    "Python.different_currencies.executor": "Run",
+    "Python.dora_the_temptress.executor": "Run",
+    "Python.dungeonsAndVagos.executor": "Run",
+    "Python.everyone_to_elis.executor": "Run",
+    "Python.fractional_knapsack_greedy.executor": "Run",
+    "Python.greedy_knapsack.executor": "Run",
+    "Python.henry.executor": "Run",
+    "Python.learning_drive.executor": "Run",
+    "Python.luz_verde_roja.executor": "Run",
+    "Python.personalized.executor": "Run",
+    "Python.return_to_earth.executor": "Run",
+    "Python.road_to_velada.executor": "Run",
+    "Python.scheduling.executor": "Run",
+    "Python.switch2_launch.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.waiting_time_algorithm.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Sergio URJC/Documents/UR_voraces/voraces/2_road_to_velada",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\voraces\2_road_to_velada" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm\grafos" />
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm\voraces" />
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\voraces\3_different_currencies" />
     </key>

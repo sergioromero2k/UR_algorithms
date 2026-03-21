@@ -11,9 +11,21 @@ navigate and use as a reference for studying or competitive programming.
 |---|---|---|
 | coins | art_points | dijkstra |
 | waiting_time | bfs | kruskal |
-| backpack | dfs | prim |
+| knapsack | dfs | prim |
 | schedule | lexical_toposort | |
 | | topsort | |
+
+
+| VORACES | |
+|---|---|
+| knapsack | ACasaDeMayeli |
+| | VueltaALaTierra |
+| scheduling | APorLaVeladaDelAnioIV |
+| | doraLaTentadora |
+| coins | distintas_monedas |
+| | laMejorTienda |
+| waiting_time | lanzamientoSwitch2 |
+| | p42 |
 
 | GRAFOS | |
 |---|---|
