@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env python3
 
 def dfs_desde_nodo(nodo_actual, grafo, visitados, nivel):
     visitados.add(nodo_actual)
