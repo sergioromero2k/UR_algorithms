@@ -1,45 +1,33 @@
 #!/urs/bin/env python3
 
-def dfs_desde_nodo(nodo_actual, grafo, visitados):
-    visitados.add(nodo_actual)
-    print(f"Visitando nodo {nodo_actual}")
-
+def dfs_aux(nodo_actual, grafo, visited):
+    visited.add(nodo_actual)
     for vecino in grafo[nodo_actual]:
-        if vecino not in visitados:
-            dfs_desde_nodo(vecino, grafo, visitados)
+        if vecino not in visited:
+            dfs_aux(vecino, grafo, visited)
 
 
 def dfs(grafo):
-    visitados = set()
+    visitado = set()
 
     for nodo in range(len(grafo)):
-        if nodo not in visitados:
-            dfs_desde_nodo(nodo, grafo, visitados)
-
+        if nodo not in visitado:
+            dfs_aux(nodo, grafo,visitado)
 
 grafo = [
-    [],  # índice 0 no se usa
-    [2, 4, 8],  # nodo 1 conectado a 2, 4, 8
-    [1, 3, 4],  # nodo 2 conectado a 1, 3, 4
-    [2, 4, 5],  # nodo 3 conectado a 2, 4, 5
-    [1, 2, 3, 7],  # nodo 4 conectado a 1, 2, 3, 7
-    [3, 6],  # nodo 5 conectado a 3, 6
-    [5, 7],  # nodo 6 conectado a 5, 7
-    [4, 6, 9],  # nodo 7 conectado a 4, 6, 9
-    [1, 9],  # nodo 8 conectado a 1, 9
-    [7, 8]  # nodo 9 conectado a 7, 8
+    [],             # índice 0 no se usa
+    [2, 4, 8],      # nodo 1 conectado a 2, 4, 8
+    [1, 3, 4],      # nodo 2 conectado a 1, 3, 4
+    [2, 4, 5],      # nodo 3 conectado a 2, 4, 5
+    [1, 2, 3, 7],   # nodo 4 conectado a 1, 2, 3, 7
+    [3, 6],         # nodo 5 conectado a 3, 6
+    [5, 7],         # nodo 6 conectado a 5, 7
+    [4, 6, 9],      # nodo 7 conectado a 4, 6, 9
+    [1, 9],         # nodo 8 conectado a 1, 9
+    [7, 8]          # nodo 9 conectado a 7, 8
 ]
 
 dfs(grafo)
-
-
-
-
-
-
-
-
-
 
 
 
