@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/grafos/art_points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafos/marvelVSdc/marvel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/divide/busc_bin_rec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/divide/maximo_vector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/grafos/bfs_min.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/grafos/bfs_min.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/grafos/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/grafos/dfs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
