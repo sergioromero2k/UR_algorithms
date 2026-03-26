@@ -1,3 +1,61 @@
+#!/usr/bin/env python3
+
+def obtener_nodo_mas_cercano(distancias, visitado):
+    nodo_siguiente = 0
+    distancia_minima = 0x3f3f3f3f
+
+    for nodo in range(1, len(distancias)):
+        if not visitado[nodo] and distancias[nodo] < distancia_minima:
+            nodo_siguiente = nodo
+            distancia_minima = distancias[nodo]
+
+    return nodo_siguiente
+
+
+def dijkstra(grafo, nodo_inicio):
+    """ Encontrar la distancia mínima desde un nodo inicial a todos los demás nodos en un grafo con pesos positivos."""
+    num_nodos = len(grafo) - 1
+
+    distancias = [0x3f3f3f3f] * (num_nodos + 1)
+    visitado = [False] * (num_nodos + 1)
+
+    distancias[nodo_inicio] = 0
+    visitado[nodo_inicio] = True
+
+    # Inicializar distancias desde el nodo inicial
+    for origen, destino, peso in grafo[nodo_inicio]:
+        distancias[destino] = peso
+
+    # Iterar sobre el resto de nodos
+    for _ in range(2, num_nodos + 1):
+        nodo_actual = obtener_nodo_mas_cercano(distancias, visitado)
+        visitado[nodo_actual] = True
+
+        for origen, destino, peso in grafo[nodo_actual]:
+            nueva_distancia = distancias[origen] + peso
+            if nueva_distancia < distancias[destino]:
+                distancias[destino] = nueva_distancia
+
+    return distancias
+
+def main() -> None:
+    grafo = [
+        [],
+        [(1, 2, 5), (1, 4, 3)],
+        [(2, 5, 1)],
+        [],
+        [(4, 2, 1), (4, 3, 11), (4, 5, 6)],
+        [(5, 3, 1)]
+    ]
+
+    nodo_inicio = 1
+    resultado = dijkstra(grafo, nodo_inicio)
+    print(resultado[1:])
+
+if __name__ == "__main__":
+    main()
+
+"""
 def buscar_nodo_mas_cercano(costes, visitados):
     nodo_minimo = 0
     distancia_minima = float('inf')
@@ -46,61 +104,4 @@ def main() -> None:
 
     resultado = dijkstra_entendible(grafo_ciudades, 1)
     print(f"Costes mínimos desde el nodo 1: {resultado[1:]}")
-
-
-if __name__ == "__main__":
-    main()
-
-
-"""
-def obtener_nodo_mas_cercano(distancias, visitado):
-    nodo_siguiente = 0
-    distancia_minima = float('inf')
-    
-    for nodo in range(1, len(distancias)):
-        if not visitado[nodo] and distancias[nodo] < distancia_minima:
-            nodo_siguiente = nodo
-            distancia_minima = distancias[nodo]
-    
-    return nodo_siguiente
-
-
-def dijkstra(grafo, nodo_inicio):
-    num_nodos = len(grafo) - 1
-    
-    distancias = [float('inf')] * (num_nodos + 1)
-    visitado = [False] * (num_nodos + 1)
-    
-    distancias[nodo_inicio] = 0
-    visitado[nodo_inicio] = True
-    
-    # Inicializar distancias desde el nodo inicial
-    for origen, destino, peso in grafo[nodo_inicio]:
-        distancias[destino] = peso
-    
-    # Iterar sobre el resto de nodos
-    for _ in range(2, num_nodos + 1):
-        nodo_actual = obtener_nodo_mas_cercano(distancias, visitado)
-        visitado[nodo_actual] = True
-        
-        for origen, destino, peso in grafo[nodo_actual]:
-            nueva_distancia = distancias[origen] + peso
-            if nueva_distancia < distancias[destino]:
-                distancias[destino] = nueva_distancia
-    
-    return distancias
-
-
-grafo = [
-    [],
-    [(1,2,5),(1,4,3)],
-    [(2,5,1)],
-    [],
-    [(4,2,1),(4,3,11),(4,5,6)],
-    [(5,3,1)]
-]
-
-nodo_inicio = 1
-resultado = dijkstra(grafo, nodo_inicio)
-print(resultado[1:])
 """
