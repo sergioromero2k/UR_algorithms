@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/grafos_voraces/newyork/newyork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/grafos/top_sort_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/grafos/topsort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafos/dorasuspendedora/dora.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/grafos_voraces/dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/grafos_voraces/dijkstra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafos/marvelVSdc/marvel.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafos/marvelVSdc/marvel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,7 @@
     "Python.henry.executor": "Run",
     "Python.learning_drive.executor": "Run",
     "Python.luz_verde_roja.executor": "Run",
+    "Python.marvel.executor": "Run",
     "Python.newyork.executor": "Run",
     "Python.personalized.executor": "Run",
     "Python.return_to_earth.executor": "Run",
@@ -77,6 +80,8 @@
     "Python.scheduling.executor": "Run",
     "Python.switch2_launch.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.top_sort_summary.executor": "Run",
+    "Python.topsort.executor": "Run",
     "Python.waiting_time_algorithm.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
