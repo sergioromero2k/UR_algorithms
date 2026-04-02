@@ -1,24 +1,25 @@
+#!/usr/bin/env python3
 from collections import deque
 
-def bfs_aux(grafo, origen, destino, visitado):
-    visitado[origen] = True
-    cola = deque()
-    cola.append((origen, 0))
-
-    while cola:
-        nodo_actual, dist = cola.popleft()
-        if nodo_actual == destino:
-            return dist + 1
-        for vecino in grafo[nodo_actual]:
-            if not visitado[vecino]:
-                cola.append((vecino, dist + 1))
-                visitado[vecino] = True
-    return float('inf')
-
-def bfs(grafo, origen, destino):
+def bfs(grafo, origen):
     n = len(grafo)
     visitado = [False] * n
-    return bfs_aux(grafo, origen, destino, visitado)
+    distancias = [float('inf')] * n
+    cola = deque()
+
+    cola.append((origen, 0))
+    visitado[origen] = True
+    distancias[origen] = 1
+
+    while cola:
+        nodo, dist = cola.popleft()
+        for vecino in grafo[nodo]:
+            if not visitado[vecino]:
+                visitado[vecino] = True
+                distancias[vecino] = dist + 2
+                cola.append((vecino, dist + 1))
+
+    return distancias
 
 def main() -> None:
     n, m, c = map(int, input().strip().split())
@@ -29,18 +30,19 @@ def main() -> None:
         list_ady[u].append(v)
         list_ady[v].append(u)
 
-    resultado = []
-    comparar = []
+    # BFS desde cada nodo UNA sola vez
+    distancias = [bfs(list_ady, i) for i in range(n)]
+
+    salida = []
     for _ in range(c):
         o, d, p = map(int, input().strip().split())
-        resultado.append(bfs(list_ady, o, d))
-        comparar.append(p)
-
-    for i in range(len(resultado)):
-        if resultado[i] <= comparar[i]:
-            print(resultado[i])
+        resultado = distancias[o][d]
+        if resultado <= p:
+            salida.append(str(resultado))
         else:
-            print("MON TOYA POR FAVOR")
+            salida.append("MON TOYA POR FAVOR")
+
+    print("\n".join(salida))
 
 if __name__ == "__main__":
     main()
