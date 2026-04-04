@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/grafos/lexical_toposort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/propios/ordenacion_topologica/algoritmo_kahn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafos/LeyendoComics/leyendo_comics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafos/organizaMiagenda/organiza_agenda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/propios/bfs/bfs_caminos_mini.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/propios/bfs/bfs_caminos_mini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/henry/henry.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafos/henry/henry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/propios/videos.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/propios/videos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafos/hackerman/hackerman.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafos/hackerman/hackerman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafos/montoya/montoya.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafos/montoya/montoya.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +72,7 @@
     "Python.explorando.executor": "Run",
     "Python.fractional_knapsack_greedy.executor": "Run",
     "Python.greedy_knapsack.executor": "Run",
+    "Python.hackerman.executor": "Run",
     "Python.henry.executor": "Run",
     "Python.learning_drive.executor": "Run",
     "Python.leyendo_comics.executor": "Run",

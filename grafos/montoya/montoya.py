@@ -1,48 +1,54 @@
 #!/usr/bin/env python3
+
+import sys
 from collections import deque
 
-def bfs(grafo, origen):
-    n = len(grafo)
-    visitado = [False] * n
-    distancias = [float('inf')] * n
-    cola = deque()
+input = sys.stdin.readline
 
-    cola.append((origen, 0))
-    visitado[origen] = True
-    distancias[origen] = 1
+def bfs_min(grafo, inicio, n):
+    distancia = [-1] * n
+    cola = deque()
+    distancia[inicio] = 1
+    cola.append(inicio)
 
     while cola:
-        nodo, dist = cola.popleft()
-        for vecino in grafo[nodo]:
-            if not visitado[vecino]:
-                visitado[vecino] = True
-                distancias[vecino] = dist + 2
-                cola.append((vecino, dist + 1))
+        nodo_actual = cola.popleft()
+        for nodo in grafo[nodo_actual]:
+            if distancia[nodo] == -1:
+                distancia[nodo] = distancia[nodo_actual] + 1
+                cola.append(nodo)
+    return distancia
 
-    return distancias
 
-def main() -> None:
-    n, m, c = map(int, input().strip().split())
+def main():
+    n, m, c = map(int, input().split())
+    g = [[] for _ in range(n)]
 
-    list_ady = [[] for _ in range(n)]
     for _ in range(m):
-        u, v = map(int, input().strip().split())
-        list_ady[u].append(v)
-        list_ady[v].append(u)
+        u, v = map(int, input().split())
+        g[u].append(v)
+        g[v].append(u)
 
-    # BFS desde cada nodo UNA sola vez
-    distancias = [bfs(list_ady, i) for i in range(n)]
-
-    salida = []
+    casos = []
     for _ in range(c):
-        o, d, p = map(int, input().strip().split())
-        resultado = distancias[o][d]
-        if resultado <= p:
-            salida.append(str(resultado))
-        else:
-            salida.append("MON TOYA POR FAVOR")
+        o, d, p = map(int, input().split())
+        casos.append((o, d, p))
 
-    print("\n".join(salida))
+    cache = {}
+    for o, d, p in casos:
+        if o not in cache:
+            cache[o] = bfs_min(g, o, n)
+
+    output = []
+    for o, d, p in casos:
+        minimo = cache[o][d]
+        if minimo == -1 or minimo > p:
+            output.append("MON TOYA POR FAVOR")
+        else:
+            output.append(str(minimo))
+
+    print('\n'.join(output))
+
 
 if __name__ == "__main__":
     main()
