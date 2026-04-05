@@ -1,48 +1,51 @@
-
 #!/usr/bin/env python3
 
-def mas_cercano(distancia, visitado):
-    nodo_sig = 0
-    distancia_min =  0x3f3f3f3f
+def select_min(distancia, visited):
+    min_node = -1
+    min_dist = float('inf')
 
     for nodo in range(len(distancia)):
-        if not visitado[nodo] and distancia[nodo] < distancia_min:
-            nodo_sig = nodo
-            distancia_min =  distancia[nodo]
-    return nodo_sig
+        if not visited[nodo] and distancia[nodo] < min_dist:
+            min_dist = distancia[nodo]
+            min_node = nodo
+    return min_node
 
+def dijkstra(grafo, inicio):
+    n = len(grafo)
+    distance = [float('inf')] * n
+    visited = [False] * n
 
-def dijkstra(grafo, nodo_inicio):
-    num_nodos = len(grafo)
-    distancias = [float('inf')] * (num_nodos)
-    visitados = [False] * (num_nodos)
+    distance[inicio] = 0
 
-    distancias[nodo_inicio] = 0
-    visitados[nodo_inicio] = 0
+    for _ in range(n):
+        u = select_min(distance, visited)
+        if u == -1:
+            break
 
-    for origen, destino, peso in grafo[nodo_inicio]:
-        distancias[destino] = peso
+        visited[u] = True
+        for src, dst, w in grafo[u]:
+            if distance[src] + w < distance[dst]:
+                distance[dst] = distance[src] + w
 
-    for _ in range(num_nodos):
-        nodo_actual = mas_cercano(distancias, visitados)
-        visitados[nodo_actual] = True
-
-        for origen, destino, peso in grafo[nodo_actual]:
-            nueva_distancia = distancias[origen] + peso
-            if nueva_distancia < distancias[destino]:
-                distancias[destino] = nueva_distancia
-
-    print(distancias)
+    return distance
 
 def main() -> None:
     n, m = map(int, input().strip().split())
     grafo = [[] for _ in range(n)]
-    for i in range(m):
-        a, b, t =  map(int, input().strip().split())
-        grafo[i].append((a,b,t))
-        grafo[i].append((a,b,t))
+    for _ in range(m):
+        a, b, t = map(int, input().strip().split())
+        grafo[a].append((a,b,t))
+        grafo[b].append((b,a,t))
 
-    dijkstra(grafo, 0)
+    sumas = []
+    for i in range(n):
+        dist =dijkstra(grafo, i)
+        total = sum(d for d in dist if d != float('inf'))
+        sumas.append(total)
+
+    print(min(sumas))
+    for i, s in enumerate(sumas):
+        print(f"{i}: {s}")
 
 if __name__ == "__main__":
     main()

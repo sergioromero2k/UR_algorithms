@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/propios/dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/propios/dijkstra_clase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/propios/prim.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/propios/videos.md" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/propios/videos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/hackerman/hackerman.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafos/hackerman/hackerman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/montoya/montoya.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafos/montoya/montoya.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grafos_voraces/newyork/newyork.py" beforeDir="false" afterPath="$PROJECT_DIR$/grafos_voraces/newyork/newyork.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,7 @@
     "Python.dfs_no_conexo.executor": "Run",
     "Python.different_currencies.executor": "Run",
     "Python.dijkstra.executor": "Run",
+    "Python.dijkstra_clase.executor": "Run",
     "Python.dora.executor": "Run",
     "Python.dora_the_temptress.executor": "Run",
     "Python.dungeonandvagos.executor": "Run",
@@ -80,6 +82,7 @@
     "Python.marvel.executor": "Run",
     "Python.montoya.executor": "Run",
     "Python.newyork.executor": "Run",
+    "Python.newyork_2.executor": "Run",
     "Python.oder_topologica.executor": "Run",
     "Python.orden_topologica.executor": "Run",
     "Python.orden_topologica_conex.executor": "Run",
@@ -109,11 +112,11 @@
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\voraces\2_road_to_velada" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm\propios\grafos" />
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm\propios" />
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm" />
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm\propios\dfs" />
       <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm\propios\ordenacion_topologica" />
-      <recent name="C:\Users\Sergio URJC\Documents\UR_voraces\algorithm\grafos" />
     </key>
   </component>
   <component name="SharedIndexes">
