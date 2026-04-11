@@ -54,3 +54,14 @@ navigate and use as a reference for studying or competitive programming.
 | | Genkidama |
 | | MitosYMortales |
 | | TeilorSuif |
+
+
+| Problema | Algoritmo |
+|---|---|
+| Artemis II | Mergesort / DyV sobre subarray máximo |
+| Caos en la biblioteca | Mergesort (conteo de inversiones) |
+| Clear Souls | Búsqueda Binaria |
+| Reduciendo problemas | Búsqueda Binaria |
+| Dora la Jakeadora | Búsqueda Binaria |
+| Rey de Diamantes | Búsqueda Binaria |
+| Spoderman vs Rastaman | Búsqueda Binaria |
