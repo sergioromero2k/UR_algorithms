@@ -55,13 +55,12 @@ navigate and use as a reference for studying or competitive programming.
 | | MitosYMortales |
 | | TeilorSuif |
 
-
-| Problema | Algoritmo |
-|---|---|
-| Artemis II | Mergesort / DyV sobre subarray máximo |
-| Caos en la biblioteca | Mergesort (conteo de inversiones) |
-| Clear Souls | Búsqueda Binaria |
-| Reduciendo problemas | Búsqueda Binaria |
-| Dora la Jakeadora | Búsqueda Binaria |
-| Rey de Diamantes | Búsqueda Binaria |
-| Spoderman vs Rastaman | Búsqueda Binaria |
+| Divide-Venceras          | Algoritmo                             | Teoria Adicional |
+|-------------------------|--------------------------------------|------------------|
+| Artemis II              | Mergesort / DyV sobre subarray máximo|                  |
+| Caos en la biblioteca    | Mergesort (conteo de inversiones)   |                  |
+| Clear Souls              | Búsqueda Binaria                     |                  |
+| Reduciendo problemas      | Búsqueda Binaria                     | Prefix sum       |
+| Dora la Jakeadora        | Búsqueda Binaria                     | bisect_left + bisect_righ |
+| Rey de Diamantes         | Búsqueda Binaria                     |                  |
+| Spoderman vs Rastaman    | Búsqueda Binaria                     |                  |

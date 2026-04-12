@@ -5,111 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/divide_venceras_new/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/propios/divide_venceras/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/propios/divide_venceras/binary_search_iter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ArtemisII/prob-Artemis II.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/CaosBiblioteca/caos_biblio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/CaosBiblioteca/prob-Caos en la biblioteca.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ClearSouls/clear_soul.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ClearSouls/prob-Clear Souls.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/JakeaDora/prob-Dora la Jakeadora.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ReduciendoProblemas/prob-ReduciendoProblemas.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ReyDiamantes/prob-Rey de Diamantes.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/SpodermanVSRastaman/prob-SpodermanVSRastaman.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/propios/Examples/prefix_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/JakeaDora/jakedora.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ReduciendoProblemas/reduciendo_problemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ReyDiamantes/rey_diamantes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/divide/busc_bin_iter.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/divide_venceras_old/busc_bin_iter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/divide/busc_bin_rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/divide_venceras_old/busc_bin_rec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/divide/maximo_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/divide_venceras_old/maximo_vector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/DungeonsAndVagos/dungeonandvagos.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/DungeonsAndVagos/dungeonandvagos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/DungeonsAndVagos/prob-DungeonsAndVagos.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/DungeonsAndVagos/prob-DungeonsAndVagos.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/DungeonsAndVagos/samples-DungeonsAndVagos/1.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/DungeonsAndVagos/samples-DungeonsAndVagos/1.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/DungeonsAndVagos/samples-DungeonsAndVagos/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/DungeonsAndVagos/samples-DungeonsAndVagos/1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/DungeonsAndVagos/samples-DungeonsAndVagos/2.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/DungeonsAndVagos/samples-DungeonsAndVagos/2.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/DungeonsAndVagos/samples-DungeonsAndVagos/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/DungeonsAndVagos/samples-DungeonsAndVagos/2.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/LeyendoComics/leyendo_comics.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/LeyendoComics/leyendo_comics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/LeyendoComics/prob-LeyendoComics.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/LeyendoComics/prob-LeyendoComics.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/dorasuspendedora/dora.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/dorasuspendedora/dora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/dorasuspendedora/prob-DoraSuspendedora.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/dorasuspendedora/prob-DoraSuspendedora.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/explorando/explorando.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/explorando/explorando.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/explorando/prob-Explorando Mazmorras.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/explorando/prob-Explorando Mazmorras.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/hackerman/hackerman.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/hackerman/hackerman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/hackerman/prob-Hackerman.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/hackerman/prob-Hackerman.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/henry/henry.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/henry/henry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/henry/prob-Henry Pitter.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/henry/prob-Henry Pitter.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/marvelVSdc/marvel.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/marvelVSdc/marvel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/marvelVSdc/prob-MarvelVSDC.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/marvelVSdc/prob-MarvelVSDC.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/montoya/montoya.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/montoya/montoya.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/montoya/prob-Mon Toya por favor.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/montoya/prob-Mon Toya por favor.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/organizaMiagenda/organiza_agenda.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/organizaMiagenda/organiza_agenda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos/organizaMiagenda/prob-Organiza mi agenda.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos/organizaMiagenda/prob-Organiza mi agenda.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/Dumbledora/prob-Dumbledora.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/Dumbledora/prob-Dumbledora.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/Genkidama/prob-Genkidama.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/Genkidama/prob-Genkidama.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/MitosYMortales/prob-Mitos y mortales.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/MitosYMortales/prob-Mitos y mortales.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/TeilorSuif/prob-Teilor Suif.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/TeilorSuif/prob-Teilor Suif.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/boom/boom.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/boom/boom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/boom/prob-Boom.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/boom/prob-Boom.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/newyork/newyork.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/newyork/newyork.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/newyork/prob-ViajeNewYork.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/newyork/prob-ViajeNewYork.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafos_voraces/pathseekers/prob-PathSeekers.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/pathseekers/prob-PathSeekers.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/1_animal_crossing/animal_crossing.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/1_animal_crossing/animal_crossing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/1_animal_crossing/prob-Animal Crossing.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/1_animal_crossing/prob-Animal Crossing.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/1_animal_crossing/samples-Animal Crossing/1.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/1_animal_crossing/samples-Animal Crossing/1.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/1_animal_crossing/samples-Animal Crossing/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/1_animal_crossing/samples-Animal Crossing/1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/1_animal_crossing/samples-Animal Crossing/2.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/1_animal_crossing/samples-Animal Crossing/2.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/1_animal_crossing/samples-Animal Crossing/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/1_animal_crossing/samples-Animal Crossing/2.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/1_animal_crossing/samples-Animal Crossing/3.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/1_animal_crossing/samples-Animal Crossing/3.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/1_animal_crossing/samples-Animal Crossing/3.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/1_animal_crossing/samples-Animal Crossing/3.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/2_learning_drive/learning_drive.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/2_learning_drive/learning_drive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/2_learning_drive/prob-Aprendiendo a conducir.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/2_learning_drive/prob-Aprendiendo a conducir.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/2_learning_drive/samples-Aprendiendo a conducir/1.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/2_learning_drive/samples-Aprendiendo a conducir/1.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/2_learning_drive/samples-Aprendiendo a conducir/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/2_learning_drive/samples-Aprendiendo a conducir/1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/3_hola_mundo/hola_mundo.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/3_hola_mundo/hola_mundo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/3_hola_mundo/prob-Hola mundo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/3_hola_mundo/prob-Hola mundo.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/3_hola_mundo/samples-Hola mundo/1.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/3_hola_mundo/samples-Hola mundo/1.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/3_hola_mundo/samples-Hola mundo/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/3_hola_mundo/samples-Hola mundo/1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/3_hola_mundo/samples-Hola mundo/2.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/3_hola_mundo/samples-Hola mundo/2.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/3_hola_mundo/samples-Hola mundo/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/3_hola_mundo/samples-Hola mundo/2.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/4_luz_verde_roja/luz_verde_roja.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/4_luz_verde_roja/luz_verde_roja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/4_luz_verde_roja/prob-Luz verde - Luz roja.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/4_luz_verde_roja/prob-Luz verde - Luz roja.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/1.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/1.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/2.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/2.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/2.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/3.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/3.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/3.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/4_luz_verde_roja/samples-Luz verde, luz roja/3.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/5_personalized/personalized.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/5_personalized/personalized.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intro_python/5_personalized/prob-Personalizado.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/intro_python/5_personalized/prob-Personalizado.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/1_everyone_to_eli/everyone_to_elis.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/1_everyone_to_eli/everyone_to_elis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/1_everyone_to_eli/prob-A casa de My Eli.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/1_everyone_to_eli/prob-A casa de My Eli.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/2_road_to_velada/prob-A Por la Velada del Año IV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/2_road_to_velada/prob-A Por la Velada del Año IV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/2_road_to_velada/road_to_velada.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/2_road_to_velada/road_to_velada.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/2_road_to_velada/road_to_velada_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/2_road_to_velada/road_to_velada_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/3_different_currencies/different_currencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/3_different_currencies/different_currencies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/3_different_currencies/prob-Distintas monedas.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/3_different_currencies/prob-Distintas monedas.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/4_dora_the_temptress/dora_the_temptress.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/4_dora_the_temptress/dora_the_temptress.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/4_dora_the_temptress/prob-Dora la tentadora.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/4_dora_the_temptress/prob-Dora la tentadora.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/4_dora_the_temptress/samples-doraLaTentadora/1.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/4_dora_the_temptress/samples-doraLaTentadora/1.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/4_dora_the_temptress/samples-doraLaTentadora/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/4_dora_the_temptress/samples-doraLaTentadora/1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/4_dora_the_temptress/samples-doraLaTentadora/2.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/4_dora_the_temptress/samples-doraLaTentadora/2.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/4_dora_the_temptress/samples-doraLaTentadora/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/4_dora_the_temptress/samples-doraLaTentadora/2.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/5_the_best_store/5_the_best_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/5_the_best_store/5_the_best_store.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/5_the_best_store/prob-La mejor tienda.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/5_the_best_store/prob-La mejor tienda.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/6_switch2_launch/prob-Lanzamiento Switch 2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/6_switch2_launch/prob-Lanzamiento Switch 2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/6_switch2_launch/switch2_launch.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/6_switch2_launch/switch2_launch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/7_p42/7_p42.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/7_p42/7_p42.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/7_p42/prob-Gerardito.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/7_p42/prob-Gerardito.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/7_p42/samples-p42/1.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/7_p42/samples-p42/1.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/7_p42/samples-p42/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/7_p42/samples-p42/1.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/7_p42/samples-p42/2.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/7_p42/samples-p42/2.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/7_p42/samples-p42/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/7_p42/samples-p42/2.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/7_p42/samples-p42/3.ans" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/7_p42/samples-p42/3.ans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/7_p42/samples-p42/3.in" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/7_p42/samples-p42/3.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/8_return_to_earth/prob-Vuelta a la Tierra.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/8_return_to_earth/prob-Vuelta a la Tierra.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voraces/8_return_to_earth/return_to_earth.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/voraces/8_return_to_earth/return_to_earth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/divide_venceras/ClearSouls/clear_soul.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/divide_venceras/ClearSouls/clear_soul.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +63,7 @@
     "Python.bfs_no_conexto.executor": "Run",
     "Python.binary_search.executor": "Run",
     "Python.caos_biblio.executor": "Run",
+    "Python.clear_soul.executor": "Run",
     "Python.coin_exchange_algorithm.executor": "Run",
     "Python.contest_fish.executor": "Run",
     "Python.dfs.executor": "Run",
@@ -191,7 +94,10 @@
     "Python.orden_topologica_origen.executor": "Run",
     "Python.organiza_agenda.executor": "Run",
     "Python.personalized.executor": "Run",
+    "Python.prefix_sum.executor": "Run",
+    "Python.reduciendo_problemas.executor": "Run",
     "Python.return_to_earth.executor": "Run",
+    "Python.rey_diamantes.executor": "Run",
     "Python.road_to_velada.executor": "Run",
     "Python.scheduling.executor": "Run",
     "Python.switch2_launch.executor": "Run",

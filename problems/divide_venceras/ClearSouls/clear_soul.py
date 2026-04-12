@@ -8,7 +8,7 @@ def binary_search(enemigos, q, ini, fin):
         if 1 >= enemigos[medio+1]:
             return binary_search(enemigos, q, medio+1, fin)
         else:
-            return binary_search(enemigos, q, ini, medio)
+            return binary_search(enemigos, q, ini, medio-1)
 
 def main() -> None:
     n = int(input().strip())
@@ -24,3 +24,6 @@ def main() -> None:
             print(0,0)
         else:
             print(pos+1, suma_puntos[pos])
+
+if __name__ == "__main__":
+    main()
