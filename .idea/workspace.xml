@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/grafos_voraces/TeilorSuif/teilorsuif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/grafos_voraces/MitosYMortales/mitos_mortales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +81,7 @@
     "Python.leyendo_comics.executor": "Run",
     "Python.luz_verde_roja.executor": "Run",
     "Python.marvel.executor": "Run",
+    "Python.mitos_mortales.executor": "Run",
     "Python.montoya.executor": "Run",
     "Python.newyork.executor": "Run",
     "Python.newyork_2.executor": "Run",
