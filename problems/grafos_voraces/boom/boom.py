@@ -1,45 +1,63 @@
-import heapq
+#!/usr/bin/env python3
 
-def dijkstra(g, start):
-    distances = [0x3f3f3f3f] * len(g)
-    distances[start] = 0
-    q = [(0, start)]
-    while q:
-        curr_distance, curr_node = heapq.heappop(q)
-        if distances[curr_node] <= curr_distance:
-            for neighbor, w in g[curr_node]:
-                distance = curr_distance + w
-                if distance < distances[neighbor]:
-                    distances[neighbor] = distance
-                    heapq.heappush(q, (distance, neighbor))
-    return distances
+def obtener_nodo_mas_cercano(distancias, visitado):
+    nodo_siguiente = -1
+    distancia_minima = 0x3f3f3f3f
+    for nodo in range(len(distancias)):
+        if not visitado[nodo] and distancias[nodo] < distancia_minima:
+            nodo_siguiente = nodo
+            distancia_minima = distancias[nodo]
+    return nodo_siguiente
 
-def solve(g, types, n_types):
-    solution = [0x3f3f3f3f] * n_types
-    for v in range(len(g)):
-        distances = dijkstra(g, v)
-        for u in range(len(distances)):
-            if u != v and types[u] == types[v]:
-                solution[types[v]] = min(solution[types[v]], distances[u])
+def dijkstra(grafo, nodo_inicio, num_nodos):
+    distancias = [0x3f3f3f3f] * num_nodos
+    visitado = [False] * num_nodos
+    distancias[nodo_inicio] = 0
 
+    for _ in range(num_nodos):
+        actual = obtener_nodo_mas_cercano(distancias, visitado)
+        if actual == -1:
+            break
+        visitado[actual] = True
+        for destino, peso in grafo[actual]:
+            nueva_distancia = distancias[actual] + peso
+            if nueva_distancia < distancias[destino]:
+                distancias[destino] = nueva_distancia
 
-def main() -> None:
-    n, m = map(int, input().strip().split())
-    types = list(map(int, input().strip().split()))
-    g = []
+    return distancias
 
-    types_set = set()
-    for i in range(n):
-        g.append([])
-        types_set.add(types[i])
+def main():
+    N, M = map(int, input().split())
+    tipos = list(map(int, input().split()))
 
-    for _ in range(n):
-        g.append([])
+    grafo = [[] for _ in range(N)]
+    for _ in range(M):
+        c, d, l = map(int, input().split())
+        grafo[c].append((d, l))
+        grafo[d].append((c, l))
 
-    for _ in range(m):
-        u, v, c= map(int, input().strip().split())
-        g[u].append((v,c))
-        g[v].append((u,c))
-    sol = solve(g, types, len(types_set))
-    for s in sol:
-        print(f"{s} ")
+    # Agrupar nodos por tipo
+    nodos_por_tipo = {}
+    for i in range(N):
+        t = tipos[i]
+        if t not in nodos_por_tipo:
+            nodos_por_tipo[t] = []
+        nodos_por_tipo[t].append(i)
+
+    resultados = []
+    for tipo in sorted(nodos_por_tipo.keys()):
+        nodos = nodos_por_tipo[tipo]
+        min_distancia = 0x3f3f3f3f
+
+        for u in nodos:
+            dist = dijkstra(grafo, u, N)
+            for v in nodos:
+                if v != u and dist[v] < min_distancia:
+                    min_distancia = dist[v]
+
+        resultados.append(min_distancia)
+
+    print(*resultados)
+
+if __name__ == "__main__":
+    main()

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/grafos_voraces/MitosYMortales/mitos_mortales.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/grafos_voraces/Genkidama/genkidama.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/grafos_voraces/pathseekers/pathSeekers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/grafos_voraces/boom/boom.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/boom/boom.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +59,7 @@
     "Python.bfs_min.executor": "Run",
     "Python.bfs_no_conexto.executor": "Run",
     "Python.binary_search.executor": "Run",
+    "Python.boom.executor": "Run",
     "Python.caos_biblio.executor": "Run",
     "Python.clear_soul.executor": "Run",
     "Python.coin_exchange_algorithm.executor": "Run",
@@ -74,6 +77,7 @@
     "Python.everyone_to_elis.executor": "Run",
     "Python.explorando.executor": "Run",
     "Python.fractional_knapsack_greedy.executor": "Run",
+    "Python.genkidama.executor": "Run",
     "Python.greedy_knapsack.executor": "Run",
     "Python.hackerman.executor": "Run",
     "Python.henry.executor": "Run",
@@ -90,6 +94,7 @@
     "Python.orden_topologica_conex.executor": "Run",
     "Python.orden_topologica_origen.executor": "Run",
     "Python.organiza_agenda.executor": "Run",
+    "Python.pathSeekers.executor": "Run",
     "Python.personalized.executor": "Run",
     "Python.prefix_sum.executor": "Run",
     "Python.reduciendo_problemas.executor": "Run",
