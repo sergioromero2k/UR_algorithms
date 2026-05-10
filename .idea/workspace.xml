@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed2d4804-0c25-4a3b-b391-874f6e55e8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/grafos_voraces/Genkidama/genkidama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/grafos_voraces/pathseekers/pathSeekers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ArtemisII/artemisll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/SpodermanVSRastaman/spoderman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/divide_venceras/ot_microfonos/ot_microfonos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/alice/alice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/canciones_repetidas/coloreo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/defensa_wartshog/defensa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/estancia/estancia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/plataformas/plataformas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/silksong/sliksong.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/sonic/sonic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/sudoku/sudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/vuelta_atras/vecna/vecna.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/grafos_voraces/boom/boom.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/grafos_voraces/boom/boom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/divide_venceras/CaosBiblioteca/caos_biblio_profe.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/divide_venceras/CaosBiblioteca/caos_biblio_profe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/divide_venceras/ClearSouls/clear_soul.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/divide_venceras/ClearSouls/clear_soul.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/divide_venceras/ReyDiamantes/rey_diamantes.py" beforeDir="false" afterPath="$PROJECT_DIR$/problems/divide_venceras/ReyDiamantes/rey_diamantes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +65,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.5_the_best_grosery.executor": "Run",
     "Python.7_p42.executor": "Run",
+    "Python.alice.executor": "Run",
     "Python.art_points.executor": "Run",
     "Python.bfs.executor": "Run",
     "Python.bfs_caminos_mini.executor": "Run",
@@ -63,7 +76,9 @@
     "Python.caos_biblio.executor": "Run",
     "Python.clear_soul.executor": "Run",
     "Python.coin_exchange_algorithm.executor": "Run",
+    "Python.coloreo.executor": "Run",
     "Python.contest_fish.executor": "Run",
+    "Python.defensa.executor": "Run",
     "Python.dfs.executor": "Run",
     "Python.dfs_no_conexo.executor": "Run",
     "Python.different_currencies.executor": "Run",
@@ -74,6 +89,7 @@
     "Python.dumbledora.executor": "Run",
     "Python.dungeonandvagos.executor": "Run",
     "Python.dungeonsAndVagos.executor": "Run",
+    "Python.estancia.executor": "Run",
     "Python.everyone_to_elis.executor": "Run",
     "Python.explorando.executor": "Run",
     "Python.fractional_knapsack_greedy.executor": "Run",
@@ -96,25 +112,31 @@
     "Python.organiza_agenda.executor": "Run",
     "Python.pathSeekers.executor": "Run",
     "Python.personalized.executor": "Run",
+    "Python.plataformas.executor": "Run",
     "Python.prefix_sum.executor": "Run",
     "Python.reduciendo_problemas.executor": "Run",
     "Python.return_to_earth.executor": "Run",
     "Python.rey_diamantes.executor": "Run",
     "Python.road_to_velada.executor": "Run",
     "Python.scheduling.executor": "Run",
+    "Python.sliksong.executor": "Run",
+    "Python.sonic.executor": "Run",
+    "Python.spoderman.executor": "Run",
+    "Python.sudoku.executor": "Run",
     "Python.switch2_launch.executor": "Run",
     "Python.teilorsuif.executor": "Run",
     "Python.test.executor": "Run",
     "Python.top_sort.executor": "Run",
     "Python.top_sort_summary.executor": "Run",
     "Python.topsort.executor": "Run",
+    "Python.vecna.executor": "Run",
     "Python.waiting_time_algorithm.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Sergio URJC/Documents/UR_voraces/voraces/2_road_to_velada",
+    "last_opened_file_path": "C:/Users/Sergio URJC/Documents/UR_voraces",
     "settings.editor.selected.configurable": "editor.preferences.inline.completion"
   }
 }]]></component>
