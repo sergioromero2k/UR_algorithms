@@ -64,3 +64,18 @@ navigate and use as a reference for studying or competitive programming.
 | Dora la Jakeadora        | Búsqueda Binaria                     | bisect_left + bisect_righ |
 | Rey de Diamantes         | Búsqueda Binaria                     |                  |
 | Spoderman vs Rastaman    | Búsqueda Binaria                     |                  |
+
+| Vuelta Atrás | Problema |
+| :--- | :--- |
+| **graph_coloring_bt.py** | Canciones repetidas |
+| | RepartoRecompensa |
+| **labyrinth.py** | Alice in Borderland_ Reina de Picas |
+| | Plataformas |
+| | Silksong |
+| | Sonic |
+| | Matar a Vecna |
+| **nqueens_bt.py** | La defensa de Wartshog |
+| | Sudoku |
+| **knapsack_bt.py** | Dora la Seleccionadora |
+| | Estancia |
+| **hamiltonian_cycle_bt.py** | (No se utiliza en los problemas proporcionados) |
