@@ -1,5 +1,6 @@
 #/usr/bin/env python3
 
+"""OLD
 def get_best_task(candidates, tasks):
     best_task = 0
     best_task_time = 0x3f3f3f3f
@@ -17,7 +18,7 @@ def order_tasks(tasks):
     sol = []
     while candidates:
         best = get_best_task(candidates, tasks)
-        candidates.remove(best)
+        candidates.remove(best) 
         sol.append(best)
     return sol
 
@@ -25,12 +26,37 @@ def order_tasks(tasks):
 def calculate_waiting_time(sol, tasks):
     times = []
     accum = 0
-    for task in sol:
+    for i in range(len(sol)):
+        task = sol[i]
         accum += tasks[task]
         times.append(accum)
     print(times)
     print(sum(times))
 
+
+tasks = [5, 10, 3]
+sol = order_tasks(tasks)
+print(sol)
+calculate_waiting_time(sol, tasks)
+"""
+
+"""BEST
+Greedy schedule
+Ordenar tareas para que el tiempo de espera total sea mínimo.
+"""
+
+def order_tasks(tasks):
+    return sorted(range(len(tasks), key=lambda i:tasks[i]))
+
+def calculate_waiting_time(sol, tasks):
+    accum = 0
+    times = []
+    for task in sol:
+        accum += tasks[task]
+        times.append(accum)
+
+    print(times)
+    print(sum(times))
 
 def main() -> None:
     tasks = [5, 10, 3]
@@ -38,6 +64,3 @@ def main() -> None:
     print(sol)
     calculate_waiting_time(sol, tasks)
 
-
-if __name__ == '__main__':
-    main()

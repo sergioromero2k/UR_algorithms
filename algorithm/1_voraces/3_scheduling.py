@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+"""OLD
 def get_best_item(candidates, profit):
     best_item = -1
     best_profit = -1
@@ -30,11 +31,33 @@ def greedy_schedule(profit, deadline):
         j += 1
     return sol
 
+
+profit = [50, 10, 15, 30]
+deadline = [2, 1, 2, 1]
+schedule = greedy_schedule(profit, deadline)
+print(schedule)
+"""
+
+""" BEST
+Scheduling con Deadlines
+- Ordenar por mayor beneficio, buscar slot antes del deadline.
+"""
+def greedy_schedule(profit, deadline):
+    last_date = max(deadline)
+    sol = [-1] * (last_date+1)
+    tasks = sorted(range(len(profit)), key=lambda i:profit[i], reverse = True)
+    for best in tasks:
+        for i in range(deadline[best], -1, -1):
+            if sol[i] == -1:
+                sol[i] = best
+                break
+    return sol
+
 def main() -> None:
-    profit = [50, 10, 15, 30]
-    deadline = [2, 1, 2, 1]
+    profit = [50,10,15,30]
+    deadline = [2,1,2,1]
     schedule = greedy_schedule(profit, deadline)
     print(schedule)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

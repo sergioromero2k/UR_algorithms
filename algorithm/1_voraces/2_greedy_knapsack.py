@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+""" OLD
 def get_best_item(candidates, v, w):
     best_item = 0
     best_ratio = -1
@@ -38,3 +39,26 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
+"""
+# BEST
+def greedy_knapsack(v, w, W):
+    candidates = sorted(range(len(v)), key=lambda i: v[i]/w[i], reverse=True)
+    sol = [0] * len(v)
+    weight = 0
+    for best in candidates:
+        if weight == W:
+            break
+        if w[best] + weight <= W:
+            sol[best] = 1
+            weight += w[best]
+        else:
+            sol[best] = (W - weight) / w[best]
+            weight = W
+    return sol
+
+v = [20, 30, 66, 40, 60]
+w = [10, 20, 30, 40, 50]
+W = 100
+
+sol = greedy_knapsack(v, w, W)
+print(sol)

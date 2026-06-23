@@ -1,4 +1,4 @@
-#!/urs/bin/env python3
+
 
 def dfs_rec(v, g, visited):
     visited.add(v)
